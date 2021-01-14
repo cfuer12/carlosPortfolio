@@ -9,4 +9,13 @@ Portfolio section has the attached links to redirect a user to the appropriate p
 
 About me just gives a small, quick run down on who I am and what I am more proficent in terms on langauges. Short and simple. Minor detail that im trying to figure out is the bullet points (list items) that I have inputed. They are not aligining up to what i wanted them to display like.
 
-Contacts has all the link listed to where a user can navigate through and 
+Contacts has all the link listed to where a user can navigate through and click on a link to redirect them to the proposed website (LinkedIn, GitHub, GoogleDocs). Minor detail that needs dome work is centering the contacts box...its slightly off-centered. Future fix.
+
+Deployed Site:
+https://carlosfuerteportfolio.netlify.app/ 
+
+Netlify:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dd5d699a-e326-42f5-8843-1589a726c932/deploy-status)](https://app.netlify.com/sites/carlosfuerteportfolio/deploys)
+
+GitHub:
+https://github.com/cfuer12/carlosPortfolio 
