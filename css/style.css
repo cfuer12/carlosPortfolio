@@ -1,0 +1,70 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.view {
+    color: white;
+}
+
+.container {
+    padding: 150px;
+    
+}
+
+.background {
+    color: white;
+    margin: 50px
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.row {
+    margin: 10px;
+    padding: 10%;
+}
+
+.view {
+   padding: 150px;
+   margin: auto;
+}
+
+.float-left {
+    float: left;
+    padding: 10px;
+    margin: auto;
+}
+
+SPAN.li  {
+    display: list-item; 
+    margin-left: 2em;
+    margin: 1%;
+}
+
+h5, p, .card-text {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.get {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
