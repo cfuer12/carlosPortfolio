@@ -1,70 +1,116 @@
 body {
-    font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.link-icon {
+  color: #212529;
 }
 
 .view {
-    color: white;
-}
-
-.container {
-    padding: 150px;
-    
+  color: white;
 }
 
 .background {
-    color: white;
-    margin: 50px
+  color: #212529;
+  margin: 50px;
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col-md {
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px;
 }
 
 .row {
-    margin: 10px;
-    padding: 10%;
+  margin: 10px;
+  padding: 10%;
 }
 
 .view {
-   padding: 150px;
-   margin: auto;
+  padding: 150px;
+  margin: auto;
 }
 
 .float-left {
-    float: left;
-    padding: 10px;
-    margin: auto;
+  float: left;
+  padding: 10px;
+  margin: auto;
 }
 
-SPAN.li  {
-    display: list-item; 
-    margin-left: 2em;
-    margin: 1%;
+.float-right {
+  float: left;
+  padding: 10px;
+  margin: auto;
 }
 
-h5, p, .card-text {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    margin: 5px;
+SPAN.li {
+  display: list-item;
+  margin-left: 2em;
+  margin: 1%;
+}
+
+h5,
+p,
+.card-text {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
 }
 
 .get {
-    font-size: 15px;
-    color: black;
-    text-align: center;
-    margin: 10px;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  margin: 10px;
 }
 
 #btn {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+#picture {
+  margin: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fullbox {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #212529;
+}
+
+.h3,
+h3 {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+}
+
+.LI-profile-badge {
+}
+
+#navbarNavAltMarkup {
+}
+
+#carl {
+  font-size: 35px;
 }

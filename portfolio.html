@@ -4,13 +4,14 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/92229f3cc5.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
 
   <title>Portfolio</title>
@@ -25,7 +26,7 @@
     crossorigin="anonymous"></script>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Carlos Fuerte Gaspar</a>
+    <a class="navbar-brand" href="./index.html" id="carl">Carlos Fuerte Gaspar</a>
     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -44,17 +45,33 @@
     background-size: cover; 
     background-attachment: fixed;">
 
-    <div class="container">
+    <div class="container" id="fullbox">
       <div class="row">
         <div class="col-md">
           <h1>Portfolio</h1>
           <div class="jumbotron">
             <div class="row">
-              <div class="col-md">
+              <div class="col-md" id="box">
+                <h3>Gentle Drinekrs</h3>
+                <p>User can choose what kind of beer they would like to drink depending on the specific
+                  categories they choose. From thousands of different beers and the ability to input beers that the
+                  user comes across, Gentle Drinker will let any user find new beers to try based on ABV and flavor or
+                  even see a featured beer of the day or generate a random choice of beer to try next time they feel
+                  adventuring off the normal choices!</p>
+                <img style="-webkit-user-select: none;" src="./Assets/Images/beerapp.jpeg" id="picture">
+                <div id="btn">
+                  <a href="gentledrinkers.herokuapp.com/" class="btn btn-secondary">Cheers!</a>
+                </div>
+                <div id="btn">
+                  <a href="https://github.com/marlonmatthew/beerapp" class="btn btn-dark">View deployed GitHub</a>
+                </div>
+              </div>
+              <div class="col-md" id="box">
+                <h3>VersEtile</h3>
                 <p>VersEtile is a lyrics generator web app that is designed to display lyrics from your favorite artist
                   all while displaying those same lyrics in a different language. It also displays Album Cover name and
                   Related Artist for the searched artist.</p>
-                <img style="-webkit-user-select: none;margin: 10px;" src="./Assets/Images/resized-versetile.jpeg">
+                <img style="-webkit-user-select: none;" src="./Assets/Images/resized-versetile.jpeg" id="picture">
                 <div id="btn">
                   <a href="https://versetile.netlify.app/" class="btn btn-secondary">Enter VersEtile</a>
                 </div>
@@ -62,10 +79,11 @@
                   <a href="https://github.com/ETroya/lyrcis-app" class="btn btn-dark">View deployed GitHub</a>
                 </div>
               </div>
-              <div class="col-md">
+              <div class="col-md" id="box">
+                <h3>Weather Dashboard</h3>
                 <p>Weather Dashboard lets a user search any place in the world and displays the current weather
                   information plus adds a 5-day forecast with actual readings by using OpenWeather API</p>
-                <img style="-webkit-user-select: none;margin: 10px;" src="./Assets/Images/resized-weather.jpeg">
+                <img style="-webkit-user-select: none;" src="./Assets/Images/resized-weather.jpeg" id="picture">
                 <div id="btn">
                   <a href="https://cfuer12.github.io/weatherDash/" class="btn btn-secondary">Search Weather Dash</a>
                 </div>
@@ -73,25 +91,17 @@
                   <a href="https://github.com/cfuer12/weatherDash" class="btn btn-dark">View deployed GitHub</a>
                 </div>
               </div>
-              <div class="col-md">
+              <div class="col-md" id="box">
+                <h3>Day Planner</h3>
                 <p>Work Day Planner lets the user cordinate their daily schedule on this web based scheduler app. It
                   allows a user to save their plans for the day while displaying the current time and date</p>
-                <img style="-webkit-user-select: none;margin: 10px;" src="./Assets/Images/resized-workDay.jpeg">
+                <img style="-webkit-user-select: none;" src="./Assets/Images/resized-workDay.jpeg" id="picture">
                 <div id="btn">
                   <a href="https://cfuer12.github.io/dailyPlanner/" class="btn btn-secondary">Plan your day</a>
                 </div>
                 <div id="btn">
                   <a href="https://github.com/cfuer12/dailyPlanner" class="btn btn-dark">View deployed GitHub</a>
                 </div>
-                <div class="col-md">
-                  <p>Create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. *Work in progress*</p>
-                  <img style="-webkit-user-select: none;margin: 10px;" src="./Assets/Images/burger2.jpeg">
-                  <div id="btn">
-                    <a href="https://salty-falls-59063.herokuapp.com/" class="btn btn-secondary">Make a burger</a>
-                  </div>
-                  <div id="btn">
-                    <a href="https://github.com/cfuer12/burger" class="btn btn-dark">View deployed GitHub</a>
-                  </div>
               </div>
             </div>
           </div>
@@ -99,6 +109,12 @@
       </div>
     </div>
   </div>
+
+  <footer class="footer py-4 font-small text-light">
+    <div class="footer-copyright text-center container-fluid">
+      © 2021 Copyright Carlos Fuerte
+    </div>
+  </footer>
 </body>
 
 </html>

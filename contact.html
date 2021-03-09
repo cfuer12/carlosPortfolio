@@ -11,6 +11,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92229f3cc5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Contact</title>
@@ -26,19 +27,16 @@
 
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Carlos Fuerte Gaspar</a>
+        <a class="navbar-brand" href="./index.html" id="carl">Carlos Fuerte Gaspar</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link"
-                    href="./contact.html">Contact</a>
-                <a class="nav-link"
-                    href="./portfolio.html">Portfolio</a>
-                <a class="nav-link" 
-                    href="./index.html">AboutMe</a>
+                <a class="nav-link" href="./contact.html">Contact</a>
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                <a class="nav-link" href="./index.html">AboutMe</a>
             </div>
         </div>
     </nav>
@@ -48,11 +46,12 @@
             background-size: cover; 
             background-attachment: fixed;">
 
-        <div class="container">
+        <div class="container" id="fullbox">
             <div class="row">
                 <div class="col">
                     <h1>Contact</h1>
                     <form>
+
                         <!-- <div class="form-group">
                             <label for="exampleFormControlTextarea1">Name</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
@@ -65,43 +64,42 @@
 
                         <div class="card" style="width: 50rem;">
                             <div class="card-body">
-                                <h5 class="card-title">When the going gets tough...hit my line up. I'm glad to help!</h5>
-                                <!-- <div class="get">hit my line up. I'm glad to help!</div> -->
+                                <h5 class="card-title">Don't hesitate, contact me through these useful resources:</h5>
+                                <!-- <p>LinkedIn</p> -->
+                                <div class="LI-profile-badge text-center" data-version="v1" data-size="medium"
+                                    data-locale="en_US" data-type="vertical" data-theme="dark"
+                                    data-vanity="carlos-fuerte-419954126"><a class="LI-simple-link"
+                                        href='https://www.linkedin.com/in/carlos-fuerte-419954126?trk=profile-badge'>Carlos
+                                        Fuerte</a>
+                                </div>
+                                <p>GitHub</p>
+                                <div id="btn">
+                                    <a href="https://github.com/cfuer12"><i class="fab fa-github link-icon fa-6x"></i></a>
+                                </div>
                                 <p>Email</p>
                                 <div id="btn">
-                                    <a href="mailto:cfuer12@yahoo.com" class="btn btn-dark" class="card-link">Send me an email!</a>
+                                    <a href="mailto:cfuer12@yahoo.com" class="btn btn-dark" class="card-link">Send me an
+                                        email!</a>
                                 </div>
                                 <p>Resume</p>
                                 <div id="btn">
                                     <a href="https://docs.google.com/document/d/16A9bFzGvNMTvkcCJwI9FoMCO_fa7G8zyIq_h1XcQI_4/edit?usp=sharing"
                                         class="btn btn-dark" class="card-link">Peep my resume!</a>
                                 </div>
-                                <p>GitHub</p>
-                                <div id="btn">
-                                    <a href="https://github.com/cfuer12" class="btn btn-dark"
-                                        class="card-link">GitHub profile</a>
-                                </div>
-                                <p>LinkedIn</p>
-                                <div id="btn">
-                                    <a href="https://www.linkedin.com/in/carlos-fuerte-419954126/" class="btn btn-dark"
-                                        class="card-link">LinkedIn profile</a>
-                                </div>
                             </div>
                         </div>
-
-                        <!-- <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
-                        </div>
-                        <div>
-                            <button type="button" class="btn btn-secondary">Submit</button>
-                        </div> -->
                     </form>
                 </div>
             </div>
         </div>
     </div>
-    </div>
+
+    <footer class="footer py-4 font-small text-light">
+        <div class="footer-copyright text-center container-fluid">
+            © 2021 Copyright Carlos Fuerte
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 
 </html>
