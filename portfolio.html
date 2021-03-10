@@ -11,6 +11,16 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@500&family=Mulish:wght@500&display=swap"
+    rel="stylesheet">
+
   <script src="https://kit.fontawesome.com/92229f3cc5.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./css/style.css">
 
@@ -51,63 +61,82 @@
           <h1>Portfolio</h1>
           <div class="jumbotron">
             <div class="row">
-              <div class="col-md" id="box">
-                <h3>Gentle Drinekrs</h3>
-                <p>User can choose what kind of beer they would like to drink depending on the specific
-                  categories they choose. From thousands of different beers and the ability to input beers that the
-                  user comes across, Gentle Drinker will let any user find new beers to try based on ABV and flavor or
-                  even see a featured beer of the day or generate a random choice of beer to try next time they feel
-                  adventuring off the normal choices!</p>
-                <img style="-webkit-user-select: none;" src="./Assets/Images/beerapp.jpeg" id="picture">
-                <div id="btn">
-                  <a href="gentledrinkers.herokuapp.com/" class="btn btn-secondary">Cheers!</a>
-                </div>
-                <div id="btn">
-                  <a href="https://github.com/marlonmatthew/beerapp" class="btn btn-dark">View deployed GitHub</a>
-                </div>
-              </div>
-              <div class="col-md" id="box">
-                <h3>VersEtile</h3>
-                <p>VersEtile is a lyrics generator web app that is designed to display lyrics from your favorite artist
-                  all while displaying those same lyrics in a different language. It also displays Album Cover name and
-                  Related Artist for the searched artist.</p>
-                <img style="-webkit-user-select: none;" src="./Assets/Images/resized-versetile.jpeg" id="picture">
-                <div id="btn">
-                  <a href="https://versetile.netlify.app/" class="btn btn-secondary">Enter VersEtile</a>
-                </div>
-                <div id="btn">
-                  <a href="https://github.com/ETroya/lyrcis-app" class="btn btn-dark">View deployed GitHub</a>
+              <div class="col-sm-6">
+                <div class="card" style="width: 280px;" id="box">
+                  <a href="https://gentledrinkers.herokuapp.com/">
+                    <img class="card-img-top" src="./Assets/Images/beerapp.jpeg" alt="beerapp" id="appImg">
+                  </a>
+                  <div class="card-body">
+                    <h4>Gentle Drinkers</h4>
+                    <p class="card-text">User can choose what kind of beer they would like to drink depending on the
+                      specific
+                      categories they choose.</p>
+                    <div id="btn">
+                      <a href="https://github.com/marlonmatthew/beerapp" class="btn btn-dark">View deployed GitHub</a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-md" id="box">
-                <h3>Weather Dashboard</h3>
-                <p>Weather Dashboard lets a user search any place in the world and displays the current weather
-                  information plus adds a 5-day forecast with actual readings by using OpenWeather API</p>
-                <img style="-webkit-user-select: none;" src="./Assets/Images/resized-weather.jpeg" id="picture">
-                <div id="btn">
-                  <a href="https://cfuer12.github.io/weatherDash/" class="btn btn-secondary">Search Weather Dash</a>
-                </div>
-                <div id="btn">
-                  <a href="https://github.com/cfuer12/weatherDash" class="btn btn-dark">View deployed GitHub</a>
-                </div>
-              </div>
-              <div class="col-md" id="box">
-                <h3>Day Planner</h3>
-                <p>Work Day Planner lets the user cordinate their daily schedule on this web based scheduler app. It
-                  allows a user to save their plans for the day while displaying the current time and date</p>
-                <img style="-webkit-user-select: none;" src="./Assets/Images/resized-workDay.jpeg" id="picture">
-                <div id="btn">
-                  <a href="https://cfuer12.github.io/dailyPlanner/" class="btn btn-secondary">Plan your day</a>
-                </div>
-                <div id="btn">
-                  <a href="https://github.com/cfuer12/dailyPlanner" class="btn btn-dark">View deployed GitHub</a>
+
+              <div class="col-sm-6">
+                <div class="card" style="width: 280px;" id="box">
+                  <a href="https://versetile.netlify.app/"><img class="card-img-top"
+                      src="./Assets/Images/resized-versetile.jpeg" alt="VersEtile" id="appImg">
+                  </a>
+                  <div class="card-body">
+                    <h4>VersEtile</h4>
+                    <p class="card-text">VersEtile is a lyrics generator web app that is designed to display lyrics from
+                      your favorite artist
+                      all while displaying those same lyrics in a different language. It also displays Album Cover name
+                      and
+                      Related Artist for the searched artist.</p>
+                    <div id="btn">
+                      <a href="https://github.com/ETroya/lyrcis-app" class="btn btn-dark">View deployed GitHub</a>
+                    </div>
+                  </div>
                 </div>
               </div>
+
+              <div class="col-sm-6">
+                <div class="card" style="width: 280px;" id="box">
+                  <a href="https://cfuer12.github.io/weatherDash/"><img class="card-img-top"
+                      src="./Assets/Images/resized-weather.jpeg" alt="weatherDash" id="appImg">
+                  </a>
+                  <div class="card-body">
+                    <h4>Weather Dashboard</h4>
+                    <p class="card-text">Weather Dashboard lets a user search any place in the world and displays the
+                      current weather
+                      information plus adds a 5-day forecast with actual readings by using OpenWeather API.</p>
+                    <div id="btn">
+                      <a href="https://github.com/cfuer12/weatherDash" class="btn btn-dark">View deployed GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="card" style="width: 280px;" id="box">
+                  <a href="https://cfuer12.github.io/dailyPlanner/"><img class="card-img-top"
+                      src="./Assets/Images/resized-workDay.jpeg" alt="dayPlanner" id="appImg">
+                  </a>
+                  <div class="card-body">
+                    <h4>Day Planner</h4>
+                    <p class="card-text">Work Day Planner lets the user cordinate their daily schedule on this web based
+                      scheduler app. It
+                      allows a user to save their plans for the day while displaying the current time and date.</p>
+                    <div id="btn">
+                      <a href="https://github.com/cfuer12/dailyPlanner" class="btn btn-dark">View deployed GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
 
   <footer class="footer py-4 font-small text-light">

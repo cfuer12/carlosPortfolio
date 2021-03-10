@@ -6,6 +6,12 @@ body {
   color: #212529;
 }
 
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-shadow: 2px 2px black;
+}
+
 .view {
   color: white;
 }
@@ -63,6 +69,10 @@ p,
   margin: 5px;
 }
 
+.card-title {
+  
+}
+
 .get {
   font-size: 15px;
   color: black;
@@ -73,7 +83,7 @@ p,
 #btn {
   display: flex;
   justify-content: center;
-  margin: 5px;
+  margin: 10px;
 }
 
 #picture {
@@ -85,17 +95,49 @@ p,
 }
 
 #box {
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #212529;
+  color: white;
+  margin-top: 20px;
+  height: 550px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card-text {
+  color: white;
+}
+
+#appImg {
+  padding: 10px;
+  border-radius: 5px;
 }
 
 #fullbox {
   margin-left: auto;
   margin-right: auto;
+  font-family: "Mulish", sans-serif;
 }
 
 footer {
   background-color: #212529;
+}
+
+li {
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.h1,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Mulish", sans-serif; */
 }
 
 .h3,
@@ -105,12 +147,25 @@ h3 {
   color: black;
 }
 
-.LI-profile-badge {
-}
-
-#navbarNavAltMarkup {
+.h4,
+h4 {
+  text-align: center;
+  font-weight: bolder;
+  color: gray;
 }
 
 #carl {
   font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+#indexText {
+  font-family: "Mulish", sans-serif;
+  color: black;
+}
+
+#phoneNumb {
+  padding: 10px;
+  font-size: 13px;
 }
